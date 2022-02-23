@@ -10,7 +10,7 @@ Ici nous allons faire un framework,
 avec de nombreuses possibilités, 
 et donc de nombreuses configurations, 
 il faudra surement les séparer dans plusieurs 
-fichiers selon les informations qu'elles contiennent.
+dossiers selon les informations qu'elles contiennent.
 
    - Config
    - Controller
@@ -24,21 +24,21 @@ fichiers selon les informations qu'elles contiennent.
 ### 2 - Les requetes HTTP
 
 On aura besoin de créer une classe HttpRequest
- qui contient les informations qui nous seront utiles, 
- qu’ils faudra mettre comme propriétés Public pour qu’on 
+ contenant les informations qui nous seront utiles et
+ qu’il faudra mettre comme propriétés privées pour qu’on 
  y puisse pas y accéder.
 
-Cependant, cela demande en revanche de créer aussi des 
+En revanche, cela demande de créer aussi des 
 accesseurs ( des getters ).
 
 ### 3 - Les routes
 
 Ici, on parle des routes pour les éléments qui vont nous indiquer
  le chemin vers où se diriger. Chaque requête HTTP devra correspondre 
- à une seule seule chemin ( route ) et celle-ci sait quel controller 
-( qu’on va voir plus tard) et quelle action appelée et quels paramètres le lier. 
+ à un seul chemin ( une route ) et celle-ci sait quel controller 
+( qu’on va voir plus tard) et quelle action sont appelée et quels paramètres les lient. 
 
-On aura à  travailler tres souvent avec ses  méthodes : 
+On aura à travailler très souvent avec ces méthodes : 
 **GET**, **POST** ou **DELETE** dans toutes nos requêtes HTTP.
 
 ### 4 - Les controllers
@@ -57,8 +57,8 @@ des informations qu'il pourra ensuite transférer à la vue.
 
 ### 5 - Modèles
 
-Les modèles sont chargé de gérer les données et leur persistance . 
+Les modèles sont chargés de gérer les données et leur persistance . 
 Un modèle se comporte comme un portail permettant au reste de l'application 
 d'accéder aux données et de les conserver au besoin. Souvent on associera 
 les modèles à une base de données mais il est tout à fait possible d'avoir 
-des modèles intéragissant avec une API externes.
+des modèles intéragissant avec des API externes.
