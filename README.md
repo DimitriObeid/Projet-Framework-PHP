@@ -41,7 +41,7 @@ Ici, on parle des routes pour les éléments qui vont nous indiquer
 On aura à  travailler tres souvent avec ses  méthodes : 
 **GET**, **POST** ou **DELETE** dans toutes nos requêtes HTTP.
 
-### 4 - Les controllers 
+### 4 - Les controllers
 
 Le controller est le dernier élément de la structure MVC et c'est aussi 
 l'élément liant. Il va s'occupper de recevoir les données entrées par 
@@ -55,7 +55,7 @@ Il va s'occupper de recevoir les données entrées par l'utilisateur et de commu
 les changements aux modèles. Il pourra aussi communiquer avec les modèles pour obtenir 
 des informations qu'il pourra ensuite transférer à la vue.
 
-### 5 - Model
+### 5 - Modèles
 
 Les modèles sont chargé de gérer les données et leur persistance . 
 Un modèle se comporte comme un portail permettant au reste de l'application 
